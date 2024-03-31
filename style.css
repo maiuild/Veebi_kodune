@@ -7,7 +7,7 @@
 }
 
 nav {
-    height: 80px;
+    height: 120px;
     background: #3134f7;
     display: flex;
     justify-content: space-between;
@@ -16,12 +16,21 @@ nav {
 
 }
 
+.nav-items {
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
 .header {
     color: #000;
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
-    padding: 0 2rem;
+    padding: 1rem;
+    align-items: center;
 }
 
 nav a {
@@ -49,7 +58,7 @@ nav a:hover {
     font-size: 1.25rem;
     font-weight: lighter;
     font-style: italic;
-    padding: 1.5rem;
+    padding: 25px 25px 0px 25px;
 }
 
 .padding {
@@ -99,5 +108,4 @@ nav a:hover {
     height: auto;
     padding: 1.5rem;
     border-radius: 30px;
-
 }
